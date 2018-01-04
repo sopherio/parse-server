@@ -1,4 +1,4 @@
-FROM node:boron
+FROM node
 
 RUN mkdir -p /parse-server
 COPY ./ /parse-server/
